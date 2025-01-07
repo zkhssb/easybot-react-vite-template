@@ -1,0 +1,15 @@
+@media (max-height: 1000px) {
+    .hidden-on-small-height {
+      display: none;
+    }
+  }
+  
+  .clip-bottom {
+    clip-path: inset(0 0 200px 0); /* 隐藏下方60px */
+  }
+  
+  .show-bottom {
+    clip-path: inset(0 0 0 0);
+    z-index: -1; /* 调整副本的层级到最底层 */
+  }
+  
