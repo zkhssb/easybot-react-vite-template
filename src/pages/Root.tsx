@@ -1,11 +1,14 @@
 import { Input } from "antd"
 import { ReactNode } from "react"
 
-interface OptionsProps { title: ReactNode, children: ReactNode }
-function Options({ title, children }: OptionsProps) {
+interface OptionsProps { title: ReactNode, children: ReactNode, icon?: ReactNode }
+function Options({ title, children, icon }: OptionsProps) {
   return (
     <div className="flex flex-col gap-1">
-      <label className="select-none">{title}</label>
+      <div className="flex items-center gap-2">
+        {icon !== null ? icon : <></>}
+        <label className="select-none">{title}</label>
+      </div>
       {children}
     </div>
   )
@@ -25,11 +28,11 @@ export default function Root() {
               <label>这是一个设置页面</label>
             </div>
 
-            <Options title="输入框">
+            <Options icon={<span className="icon-[mdi--video-input-component]"></span>} title="输入框">
               <Input></Input>
             </Options>
 
-            <Options title="输入框2">
+            <Options icon={<span className="icon-[mdi--gamepad-circle]"></span>} title="输入框2">
               <Input></Input>
             </Options>
 
@@ -42,9 +45,12 @@ export default function Root() {
                   onClick={() => {
                     alert('保存成功');
                   }}
-                  className="bg-blue-500 hover:bg-blue-700 text-white py-2 px-4 rounded"
+                  className="bg-blue-500 hover:bg-blue-700 text-white py-2 px-4 rounded items-center"
                 >
-                  保存
+                  <div className="flex items-center gap-2">
+                  <span className="icon-[mdi--content-save-all]"></span>
+                    保存
+                  </div>
                 </button>
               </div>
             </div>
