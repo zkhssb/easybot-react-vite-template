@@ -13,6 +13,19 @@
   </div>
 </div>
 
+## 注意
+
+此模板需要`EasyBot v1.3.4`以上的版本,不可在旧版本EasyBot上运行！
+
+## 使用
+
+```bash
+git clone https://github.com/zkhssb/easybot-react-vite-template.git
+cd easybot-react-vite-template
+npm i
+npm run build
+```
+
 ## 模板列表
 
 ### 设置
