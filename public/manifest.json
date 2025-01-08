@@ -28,6 +28,16 @@
                 "allow": false,
                 "path": ""
             }
+        },
+        {
+            "key": "servers",
+            "name": "服务器列表",
+            "path": "/servers",
+            "no_server": true,
+            "settings": {
+                "allow": false,
+                "path": ""
+            }
         }
     ]
 }
