@@ -35,3 +35,11 @@ npm run build
 ## 模板一号
 
 ![img](.img/template.png)
+
+## 服务器列表模板
+
+![img](.img/servers.png)
+
+## 玩家列表模板
+
+![img](.img/players.png)
