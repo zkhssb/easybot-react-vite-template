@@ -9,13 +9,17 @@
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38bcf7)
 ![Antd](https://img.shields.io/badge/Antd-1da8ff)
 
+## 注意
+
+`main`分支只有基础的一个模板,换到`full`分支可以看到完整的模板的开发示例
+
 ## 文档
 
 [📕文档](https://docs.hualib.com/template/)
 
 ## 注意
 
-此模板需要`EasyBot v1.3.4`以上的版本,不可在旧版本 EasyBot 上运行！
+此模板需要`EasyBot v1.3.3`以上的版本,不可在旧版本 EasyBot 上运行！
 
 ## 使用
 
