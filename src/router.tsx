@@ -1,6 +1,7 @@
 import { Template } from "./pages/Template";
 import Root from "./pages/Root";
 import { Servers } from "./pages/Servers";
+import { Players } from "./pages/Players";
 
 const routes: RouteConfig[] = [
     {
@@ -14,6 +15,10 @@ const routes: RouteConfig[] = [
     {
         path: "/servers",
         element: <Servers />
+    },
+    {
+        path: "/players",
+        element: <Players/>
     }
 ];
 

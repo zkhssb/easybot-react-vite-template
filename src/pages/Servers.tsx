@@ -58,7 +58,7 @@ export function Servers() {
     useEffect(() => {
         const setViewpoet = async function () {
             if (isRenderering()) {
-                await setViewportWidth(660);
+                await setViewportWidth(455);
                 await setViewportHeight(
                     document.getElementById("root")?.clientHeight || 0
                 );
@@ -70,7 +70,7 @@ export function Servers() {
     return (
         <div className="flex items-center justify-center p-20">
             <div>
-                <div className="bg-gray-100 rounded-lg shadow-gray-500 shadow-2xl p-8 w-[450px]">
+                <div className="p-8 w-[450px]">
                     <div className="flex flex-col gap-4 text-gray-800">
                         <div className="flex items-center flex-col select-none">
                             <div className="flex items-center">

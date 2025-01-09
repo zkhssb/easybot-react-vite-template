@@ -38,6 +38,16 @@
                 "allow": false,
                 "path": ""
             }
+        },
+        {
+            "key": "players",
+            "name": "玩家列表",
+            "path": "/players",
+            "no_server": false,
+            "settings": {
+                "allow": false,
+                "path": ""
+            }
         }
     ]
 }
